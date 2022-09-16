@@ -2,10 +2,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MessagingConsumerApplication",
+            "request": "launch",
+            "mainClass": "br.com.zup.msgrabbitmq.MessagingConsumerApplication"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-MessagingConsumerApplication<messaging-consumer>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "br.com.zup.rabbitmq.messagingconsumer.MessagingConsumerApplication",
+            "mainClass": "br.com.zup.msgrabbitmq.MessagingConsumerApplication",
             "projectName": "messaging-consumer",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
